@@ -1,5 +1,7 @@
 streamlit==1.56.0
+<<<<<<< HEAD
 pandas==3.0.2
 matplotlib
 seaborn==0.13.2
 numpy
+>>>>>>> b279ec29a518c9f289d2816131c1344f37cb8181
