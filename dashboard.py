@@ -16,8 +16,8 @@ st.set_page_config(
 )
 
 
-df = pd.read_csv("submission/dashboard/ecommerce_data.csv")
-rfm_df = pd.read_csv("submission/dashboard/rfm_data.csv")
+df = pd.read_csv("ecommerce_data.csv")
+rfm_df = pd.read_csv("rfm_data.csv")
 
 df["order_purchase_timestamp"] = pd.to_datetime(df["order_purchase_timestamp"])
 df["order_delivered_customer_date"] = pd.to_datetime(df["order_delivered_customer_date"])
